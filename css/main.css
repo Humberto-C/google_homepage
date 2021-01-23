@@ -1,0 +1,55 @@
+/* CSS */
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+ 
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    margin-top: 17px;
+    font-size: 0.8125rem;
+}
+
+#pixels {
+    width: 30px;
+    height: 30px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -132px -38px;
+    cursor: pointer;
+}
+
+.nav-item {
+    margin: auto 7.5px;
+}
+
+.nav-list button {
+    height: 28px;
+    padding: 0 12px;
+    border: 1px solid #4285f4;
+    background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+    line-height: 28px;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    display: inline-block;
+    border-radius: 2px;
+    margin-right: 30px;
+    white-space: nowrap;
+}
