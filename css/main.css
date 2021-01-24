@@ -53,3 +53,81 @@ ul {
     margin-right: 30px;
     white-space: nowrap;
 }
+
+.main-logo {
+    height: 233px;
+    padding-top: 109px;
+    text-align: center;
+}
+
+#search-form {
+    position: absolute;
+    top: 274px;
+    height: 140px;
+    width: 100%;
+    color: rgb(32, 33, 36);
+    min-width: 400px;
+}
+
+#search-bar {
+    border: 1px solid lightgray;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    max-width: 484px;
+    display: flex;
+    
+}
+
+.len {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 12px 14px;
+    color: #9aa0a6;
+}
+
+.text {
+    background-color: transparent;
+    height: 34px;
+    border: none;
+    margin-top: 5px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    outline: none;
+}
+
+.micro {
+    width: 45px;
+    height: 59px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    cursor: pointer;
+}
+
+#two-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+}
+
+.twobtn {
+    height: 36px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    cursor: pointer;
+    font-size: 14px;
+    min-width: 54px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+}
+
+.twobtn:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dadce0;
+    color: #202124;
+}
